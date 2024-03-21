@@ -27,7 +27,7 @@ def check_index_alias_status():
                 print(f" OK --> ",api_url)
             else:
                 print(" FAILED --> ", api_url)
-                fail_popup_message("Funciono en: " + api_url)
+                fail_popup_message("Failed on: " + api_url)
         except requests.exceptions.RequestException as e:
             pass
 
