@@ -5,7 +5,7 @@ import dbus
 from datetime import datetime
 
 
-api_urls = ['http://admin:Password@opensearch.domain.url:9200/historical','http://admin:Password@opensearch.domain.url:9200/historical','http://admin:Password@opensearch.domain.url:9200/historical', 'http://admin:Password@opensearch.domain.url:9200/historical']
+api_urls = ['http://admin:Password@opensearch.domain.url:9200/historical','http://admin:Password@opensearch.domain.url:9200/historical']
 
 # Time between rotation plus one hour
 time_between_rotation = 90000
